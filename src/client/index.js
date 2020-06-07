@@ -9,6 +9,6 @@ const App = () => {
 }
 
 render(
-    <App />
+    <App />,
     document.getElementById('app')
 )
