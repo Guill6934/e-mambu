@@ -4,7 +4,7 @@ import './style/main.css';
 
 const App = () => {
     return <h1>
-        Hello World!
+        Hello World! x2
     </h1>
 }
 
