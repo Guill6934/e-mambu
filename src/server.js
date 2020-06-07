@@ -1,6 +1,6 @@
 import express from 'express';
 import webpack from 'webpack';
-import webpackDevMiddlewarde from 'webpack-dev-middleware';
+import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackConfig from '../webpack.config.js'
 
 // Initializing packages
@@ -9,6 +9,10 @@ const app = express();
 // Setting up server
 
 app.set('port', process.env.PORT || 3000);
+
+
+// Middlewares
+app.use(webpackDevMiddleware(webpack(webpackConfig)));
 
 // routes
 app.get('/', (req, res) => {
