@@ -4,7 +4,7 @@
   "description": "Readme Test",
   "main": "index.js",
   "scripts": {
-    "dev": "babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js"
   },
   "repository": {
     "type": "git",
