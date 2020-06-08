@@ -4,7 +4,8 @@
   "description": "Readme Test",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node src/server.js"
+    "dev": "nodemon --exec babel-node src/server.js",
+    "start": "node your-script.js"
   },
   "repository": {
     "type": "git",
@@ -32,5 +33,6 @@
     "webpack": "^3.11.0",
     "webpack-dev-middleware": "^2.0.5",
     "webpack-livereload-plugin": "^1.0.0"
-  }
+  },
+  "dependencies": {}
 }
